@@ -1,0 +1,199 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-image: url(image/ae6abc8f7e6207434a22702a1de49be3.jpg);
+    background-size: 1380px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100vw;
+}
+.container{
+    width: 390px;
+    height:500px;
+    background: white;
+    margin-top:100px;
+    border-radius:30px;
+    overflow: hidden;
+    margin-left: 30px;
+    box-shadow:0 0 8px rgba(0,0,0,0.2);
+}
+.container .tit{
+    text-align: center;
+    font-size:50px;
+    font-family: "Franklin Gothic Medium", 'Arial Narrow', arial, sans-serif;
+    text-transform: uppercase;
+}
+.container .fla{
+    position: relative;
+    right: 132px;
+    top: 20px;
+    transition: all 0.3s ease;
+    height:376px;
+}
+.container:hover .fla{
+    transform:scale(1.2);
+}
+.container .cont{
+    width:100%;
+    height:100%;
+    background: white;
+    position: relative;
+    transition: all 0.4s ease;
+    top: 200px;
+}
+.container:hover .cont{
+    top:-200px;
+}
+.cont .element{
+    width: 90%;
+    height: 100%;
+    background:white;
+    margin-left:5% ;
+}
+.cont .element p{
+    font-size: 22px;
+    font-weight:500;
+    font-family: "Poppins", sans-serif;
+}
+.cont .element .tex{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 10px;
+}
+.cont .element .tex span{
+    font-size: 23px;
+    color: red;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.cont .element .men{
+    color: grey;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    margin-top: 8px;
+}
+.cont .element .size{
+    margin-top:10px;
+}
+.cont .element .size p{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight:500;
+    font-family: "Poppins", sans-serif;
+}
+.cont .element .size .tam{
+    width:50%;
+    display: flex;
+    margin: 5px 0;
+    justify-content:space-between;
+    font-family: "Poppins", sans-serif;
+}
+.cont .element .size .tam span.active{
+    background:red;
+    color: black;
+}
+.cont .element .size .tam .col{
+    display: block;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 28px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: red;
+}
+.cont .element .times{
+    margin:10px 0 ;
+}
+.cont .element .times p{
+    font-size:15px;
+    text-transform: uppercase;
+    font-weight:500;
+    font-family: "Poppins", sans-serif;
+}
+.cont .element .times .img{
+    width:50%;
+    display: flex;
+    margin-top:10px;
+    justify-content: space-between;
+}
+.cont .element .times .img span{
+    width:18px;
+    height:18px;
+    background:white;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+}
+.cont .element .times .img span.red{
+    background:#e30613;
+}
+.cont .element .times .img span.green{
+    background:#006437;
+}
+.cont .element .times .img span.blue{
+    background:#2ebbff;
+}
+.cont .element .times .img span.black{
+    background:black;
+}
+.cont .element .times .img span.blue_2{
+    background:#00325d;
+}
+.cont .element .times .img span.active:after{
+    position: absolute;
+    content:"";
+    height: 26px;
+    width: 26px;
+    left:-4px;
+    top: -4px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.cont .element .times .img span.green.active:after{
+    border-color: #006437;
+}
+
+.cont .element .times .img span.blue.active:after{
+    border-color: #2ebbff;
+}
+.cont .element .times .img span.black.active:after{
+    border-color: black;
+}
+.cont .element .times .img span.blue_2.active:after{
+    border-color: #00325d;
+}
+.cont .element .btn{
+    display: flex;
+    height:80px;
+    width:100%;
+    align-items: center;
+    justify-content:center;
+    margin-top:5px ;
+    font-family: "Poppins", sans-serif;
+}
+.cont .element .btn button{
+    height:40px;
+    width:100%;
+    margin:0 10px;
+    outline: none;
+    color: white;
+    background:red;
+    font: 15px;
+    font-weight:500 ;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
+

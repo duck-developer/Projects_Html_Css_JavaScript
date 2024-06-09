@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--====❤️ ICONE DO SITE ====-->
+    <link rel="shortcut icon" href="images/unnamed-removebg-preview.ico" type="image/x-icon">
+    <title>Doctor Who</title>
+    <!--==== CSS ====-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--==== CSS RESPONSIVO ====-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+     <!--==== ICONES ====-->
+     <script src="https://kit.fontawesome.com/877b72bea4.js" crossorigin="anonymous"></script>
+
+     <!--==== FONT DA LETRA ====-->
+     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container_ep">
+        <p class="logo">Doctor <strong>Who?</strong></p>
+        <div class="texto_1"><p>DOCOR WHO</p></div>
+
+        <div class="doctor_page">
+            <div id="page_1" class="page_btn active_page">1</div>
+            <div id="page_2" class="page_btn">2</div>
+            <div id="page_3" class="page_btn">3</div>
+            <div id="page_4" class="page_btn">4</div>
+            <div id="page_5" class="page_btn">5</div>
+        </div>
+        <a href="index.html" class="hou">
+            <i class="fa-solid fa-house-chimney but2"></i>
+        </a>
+           
+        <div id="ep">
+
+            <!--==== EPISODIO 1 ====-->
+            <div class="ep_1">
+                <div class="doc">
+                    <img src="episodes/episodio 1/EF3_AV1WsAIr4ld-removebg-preview.png" alt="">
+                </div>
+                <div class="cont">
+                    <h1>O Código Shakespeare <span>(S3xE2)</span></h1>
+                    <p>Na primeira viagem de Martha na Tardis, 
+                    <br>O Doutor a leva de volta no tempo até a época da Inglaterra Elisabetana. 
+                    <br>Lá, eles encontram William Shakespeare 
+                    <br>Dominado por criaturas mortais.</p>
+                    <button href="#" onclick="episode1()">Assistir <i class="fa-solid fa-play"></i></button>
+                </div>
+
+            </div>
+
+            <!--==== EPISODIO 2 ====-->
+            <div id="ep2">
+                <div class="doc_2">
+                    <img src="episodes/episodio 2/2c15d7f55e114dc7892399534268ee2b--doctor-who-blink-the-doctor-removebg-preview.png" alt="">
+                </div>
+                <div class="cont_2">
+                    <h1>Não Pisque<span>(S3xE2)</span></h1>
+                    <p>Tendo a sensação de estar sendo seguida por anjos de pedra,
+                        <br> A moça se vê enredada em uma trama onde passado,
+                        <br> Presente e futuro se misturam e sua única chance de sobreviver 
+                        <br>Está nas mensagens deixadas pelo 
+                        <br>Décimo Doutor em Easter Eggs de antigos DVDs</p>
+                    <button href="#" onclick="episode2()">Assistir <i class="fa-solid fa-play"></i></button>
+                    
+                </div>
+
+            </div>
+            <!--==== EPISODIO 3 ====-->
+            <div id="ep3">
+                <div class="doc_3">
+                    <img src="episodes/episodio 3/Normal_S4Promos-0008-removebg-preview.png" alt="">
+                </div>
+                <div class="cont_3">
+                    <h1>Silêncio na Biblioteca<span>(S4xE8)</span></h1>
+                    <p>A maior biblioteca do Universo foi fechada
+                        <br> Com um aviso enigmático como explicação.
+                        <br> O Doutor e Donna tentam descobrir a verdade
+                        <br> Por trás dos nodes e do Data Ghost 
+                        <br>Para desvendar o segredo da Biblioteca.</p>
+                    <button href="#" onclick="episode3()">Assistir <i class="fa-solid fa-play"></i></button>
+
+                </div>
+
+            </div>
+
+
+            <!--==== EPISODIO 4 ====-->
+            <div id="ep4">
+                <div class="doc_4">
+                    <img src="episodes/episodio 4/959fb2439781d4353d1c15ad1b41acfedda2220cr1-600-396v2_uhq-removebg-preview.png" alt="">
+                </div>
+                <div class="cont_4">
+                    <h1>Vincent e o Doutor<Span>(S5xE10)</Span></h1>
+                    <p>A Tardis viaja de volta no tempo, mas o terror ronda os milharais da cidade de Provence e apenas um pintor consegue ver. O Doutor e Amy reúnem forças com Van Gogh para derrotar um alienígena poderoso e mortal.</p>
+                    <button href="#" onclick="episode4()">Assistir <i class="fa-solid fa-play"></i></button>
+                </div>
+            </div>
+
+
+            <!--==== EPISODIO 5 ====-->
+            <div id="ep5">
+                <div class="doc_5">
+                    <img src="episodes/episodio 5/edebe801c0c5f7d806546098023a7884-removebg-preview.png" alt="">
+                </div>
+                <div class="cont_5">
+                    <h1>Enviado ao Paraíso<span>(S9xE11)</span></h1>
+                    <p>Preso num mundo diferente de qualquer outro que já tenha visto, o Doutor enfrenta o maior desafio de todas as suas vidas. Perseguido por uma aterrorizante criatura conhecida como 
+                        <br>O Véu, ele tem que fazer de tudo, até mesmo o impossível, para escapar.</p>
+                    <button href="#" onclick="episode5()">Assistir <i class="fa-solid fa-play"></i></button>
+
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="assitir" class="doc_play active_doctor">
+        <video controls src=""></video>
+        <span id="desability" onclick="active()"><i class="fas fa-times"></i></span>
+    </div>
+    
+    <script src="javaScript/episode.js"></script>
+</body>
+</html>

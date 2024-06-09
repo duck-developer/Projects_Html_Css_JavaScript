@@ -1,0 +1,301 @@
+
+@media (max-width:768px){
+    /*==== OPEN MENU ====*/
+    .navbar i{
+        font-size:80px;
+        left:89%;
+        top: 2%;
+    }
+    .navbar .text{
+        margin-top: 150px;
+    }
+    .navbar .text h1{
+        font-size:70px;
+    }
+    .navbar .text p{
+        font-size:30px;
+        margin-top: 60px;
+    }
+    /*==== PAGE HOME ====*/
+    .logo{
+        font-size:40px;
+        margin-left: 10px;
+    }
+
+    .nav_open{
+        width:50px;
+        height:auto;
+        top: 3%;
+    }
+    .nav_open span{
+        display: block;
+        height: 6px;
+        width: 62px;
+        background:  var(--azul);
+        margin:8px 0;
+        border-radius:20px;
+        
+    }
+    .nav_open span:nth-child(2){
+        width:52px;
+    }
+    .nav_open span:nth-child(3){
+        width: 40px;
+    }
+    .texto p{
+        position: relative;
+        top: 270px;
+        right: -40px;
+        font-size:40px;
+        width: 800px;
+        font-family: sans-serif;
+        letter-spacing: 35px;
+
+    }
+    .pimage{
+        left: 0%;
+        top: 20%;
+    }
+    .pimage img{
+        height: 600px;
+    }
+    .content {
+        text-align: center;
+        position: absolute;
+        margin-left: -60px;
+        left: 32%;
+        top: 29%;
+        width: 100%;
+    }
+    .content button{
+        width:160px;
+        height: 60px;
+        font-size: 20px;
+        left: 5px;
+        position: relative;
+    }
+    .content button i{
+        top: 2px;
+    }
+    .content h2{
+        position: relative;
+    font-size:40px;
+    line-height:50px;
+}
+.content p{
+    position: relative;
+    font-size:30px;
+    color: white;
+}
+.social{
+    bottom: 7%;
+    right: 2%;
+}
+.social a{
+    height:70px;
+    width:70px;
+    font-size:40px;
+    margin:16px 0;
+}
+/*==== CURIOSIDADES PAGINA HOME 2 ====*/
+#more img{
+    top: 140px;
+    left: 20px;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+#more .test{
+    top: 15%;
+    left: 30%;
+}
+
+/*==== tITLE ====*/
+#more .test h1{
+    font-size:50px;
+    left: -20px;
+
+}
+
+
+/*==== PARAGRAFO ====*/
+#more .test p{
+    font-size:20px;
+    margin-top: 20px;
+    margin-left: -10px;
+    letter-spacing: 1px;
+    line-height:40px;
+    width: 520px;
+}
+#more button{
+    left: 44%;
+    top: 110%;
+}
+
+/*==== EPISODIOS ====*/
+/*==== EPISODIOS ====*/
+/*==== EPISODIOS ====*/
+/*==== EPISODIOS ====*/
+.texto_1{
+    font-size:40px;
+    left:-56%;
+    letter-spacing: 45px;
+}
+
+
+
+
+.ep_1 .doc{
+    top: 300px;
+    left: 140px;
+}
+.ep_1 .doc img{
+    height: 550px;
+}
+
+
+.ep_1 .cont{
+    position: relative;
+    top: 120px;
+    right: 320px;
+}
+.ep_1 .cont h1,
+#ep2 .cont_2 h1,
+#ep3 .cont_3 h1,
+#ep4 .cont_4 h1,
+#ep5 .cont_5 h1{
+    text-align: center;
+    font-size:35px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.ep_1 .cont p,
+#ep2 .cont_2 p,
+#ep3 .cont_3 p,
+#ep4 .cont_4 p,
+#ep5 .cont_5 p{
+    text-align: center;
+    color: white;
+    font-size:24px;
+}
+.cont button,
+.cont_2 button,
+.cont_3 button,
+.cont_4 button,
+.cont_5 button{
+    width:220px;
+    height: 60px;
+    font-size: 35px;
+    background: var(--azul);
+    color:white;
+    border-radius:5px ;
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+    top:0px;
+}
+/*==== EPISODIO 2 ====*/
+#ep2 .doc_2{
+    position: relative;
+    top: 540px;
+    left:240px;   
+}
+#ep2 .doc_2 img{
+    height: 340px;
+} 
+#ep2 .cont_2{
+    top: 120px;
+    left: -90px;
+}
+#ep2 .cont_2 h1{
+    padding-left:0px;
+}
+#ep2 .cont_2 p{
+    font-size:24px;
+}
+
+/*==== EPISODIO 3 ====*/
+
+#ep3 .doc_3{
+    position: relative;
+    top: 50px;
+    left:150px;  
+}
+#ep3 .doc_3 img{
+    height: 460px;
+} 
+#ep3 .cont_3{
+    position: relative;
+    top: 500px;
+    left: -270px;
+}
+#ep3 .cont_3 h1{
+    margin-bottom: 24px;
+}
+#ep3 .cont_3 button{
+    left:150px;
+}
+/*==== EPISODIO 4 ====*/
+#ep4 .doc_4{
+    position: relative;
+    top: 80px;
+    right:70px ;  
+}
+#ep4 .doc_4 img{
+    height: 400px;
+} 
+#ep4 .cont_4{
+    position: relative;
+    top: 500px;
+    right: 550px;
+}
+#ep4 .cont_4 h1{
+    margin-bottom: 10px;
+}
+#ep4 .cont_4 button{
+    left:130px;  
+}
+/*==== EPISODIO 5 ====*/
+
+#ep5 .doc_5{
+    position: relative;
+    right: 50px;
+    top: 360px;
+}
+#ep5 .doc_5 img{
+    height: 560px;
+} 
+
+#ep5 .cont_5{
+    position: relative;
+    top: 150px;
+    right: 250px;
+}
+#ep5 .cont_5 h1{
+    padding-left:0px;
+    margin-bottom: 20px;
+}
+#ep5 .cont_5 button{
+    left:150px;
+}
+
+
+/*====PLAY VIDEO====*/
+
+.doc_play video{
+    width: 80%;
+    height: 90vh;
+    margin-left:90px;
+    margin-top: 0px;
+}
+.doc_play span{
+    position: absolute;
+    font-size:60px;
+    color:white;
+    top: 100px;
+    left: 88%;
+    cursor: pointer;
+}
+
+}

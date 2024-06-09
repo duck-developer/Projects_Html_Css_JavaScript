@@ -1,0 +1,324 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    color: white;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.container{
+    max-width: 1130px;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    align-items: center;
+}
+.header {
+    position:absolute;
+    z-index: 100;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    top: 28px;
+
+}
+.header img{
+    margin-left:56px;
+    width:135px;
+}
+.header .config{
+    margin-right: 55px;
+    display:flex;
+}
+
+
+.header .config .box{
+    width:115px;
+    height:34px;
+    background: rgba(0,0,0,0.5);
+    border: 1px solid white;
+    border-radius:3px;
+    display:flex;
+    align-items: center;
+
+    margin-right: 32px;
+}
+.header .config .box p{
+    margin-left: -15px;
+}
+.header .config .globe{
+    width:60px;
+    height:60px;
+    margin-left:-12px;
+    margin-top:4px;
+}
+.header .config button{
+    outline: none;
+    border: none;
+    background:#F40612;
+    width:80px;
+    height:35px;
+    border-radius:3px;
+}
+.header .config button a{
+    text-decoration: none;
+    color: white;
+    font-family:"Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 549;
+    font-size: 16px;
+
+}
+
+.main{
+    height:706px;
+    width:100%;
+    background-image:url(image/f.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position-y:70%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    position: relative;
+    text-align: center;
+}
+/* /==== TEXTO DO MAIN ====/ */
+.main-text{
+    z-index: 1;
+    margin-top: 60px;
+
+}
+.main-text h1{
+    font-size:50px;
+    max-width: 670px;
+    line-height:55px;
+    margin-bottom:15px;
+}
+.main-text .span{
+    font-weight:400;
+    font-size:26px;
+}
+.main-text p{
+    font-weight:400;
+    font-size:19px;
+    margin-top:35px;
+}
+ .form_enter{
+    display:grid;
+    grid-template-columns: 450px 190px;
+    margin-top:20px;
+    margin-left: 20px;
+}
+.form_enter input{
+    padding:20px 10px;
+    font-size:18px;
+    border: none;
+
+    outline: none;
+}
+ .form_enter button{
+    border: none;
+    outline: none;
+    background:#F40614;
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+.main-text .form_enter button:hover{
+    background:#F40612;
+}
+.main-text .form_enter button img{
+    margin-left:10px;
+}
+.gradient{
+    background:rgba(0,0,0,0.4);
+    background-image:linear-gradient(to top, rgba(0,0,0,0.8) 0, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8) 100%);
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+/* /==== SEÇÕES ====/ */
+.section{
+    background: black;
+    padding:4rem 0;
+    border-top: 6px solid #222;
+    border-bottom:8px solid #222;
+}
+.section h1{
+    font-size:50px;
+    margin-bottom: 16px;
+}
+.section p{
+    font-size:26px;
+}
+.img-tv{
+    position: relative;
+
+}
+.img-tv img{
+    position: relative;
+    z-index: 1;
+}
+.video-tv{
+    position:absolute;
+    top: 80px;
+    left: 70px;
+    width: 400px;
+}
+/* /==== SEÇÃO 2 ====/ */
+
+.dowload .grid > div:first-child{
+    order:2;
+}
+
+.dowload .img-tv{
+    order:1;
+
+}
+.card_0{
+    width:330px;
+    height:88px;
+    border-radius:10px;
+    background:black;
+    border:3px solid #333;
+    position:absolute;
+    z-index: 2;
+    top: 310px;
+    left:130px;
+    align-items: center;
+    display:flex;
+}
+.card_0 .img_0{
+    width:55px;
+    height:70px;
+    max-width:100%;
+    margin-left: 8px;
+    margin-top: -4px;
+}
+.card_0 .down{
+    width:200px;
+    margin-left:12px;
+}
+.card_0 .down h2{
+    font-size:16px;
+    font-weight:600;
+
+}
+.card_0 .down p{
+    font-size:14px;
+    font-weight:400;
+    color: #0071eb;
+}
+.card_0 .gif{
+    width:3rem;
+}
+/* /=== SEÇÃO 3 ====/ */
+.device-pile .video-tv{
+    width:340px;
+    top: 35px;
+    left:90px;
+
+}
+/* /=== SEÇÃO 4 ====/ */
+.kid .grid > div:first-child{
+    order:2;
+}
+
+/* /=== SEÇÃO 5 ====/ */
+.content{
+    text-align:center;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+}
+
+/* /==== FAQ ====/ */
+
+.faq {
+    width: 100%;
+  }
+  
+  .faq h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .faq-list {
+    margin: 50px auto;
+    max-width: 815px;
+    font-size: 26px;
+  }
+  
+  .faq-question,
+  .faq-answer {
+    background: #303030;
+  }
+  
+  .faq-question {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 1px;
+  }
+  
+  .faq-question::after {
+    content: " ";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(image/fechar.svg) no-repeat center center;
+    transform: rotate(45deg);
+  }
+  
+  .faq-question.active::after {
+    transform: rotate(0deg);
+  }
+  
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  }
+  
+  .faq-answer > div {
+    padding: 30px;
+  }
+  
+  .faq-answer.active {
+    max-height: 1200px;
+  }
+/* /==== FOOTER ====/ */
+.footer .form-cta {
+    margin-top: 0;
+  }
+  
+  .footer {
+    padding: 4rem 0 2rem 0;
+    border-top: 8px solid #222;
+    background: black;
+    display: grid;
+    justify-items: center;
+  }
+  
+  .footer p {
+    margin-top: 2rem;
+    color: #757575;
+    font-size: 13px;
+  }
